@@ -1,0 +1,27 @@
+{
+  "name": "game-of-life-kata",
+  "version": "1.0.0",
+  "description": "Coding Kata for Conway's Game of Life",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendonthiede/game-of-life-kata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendonthiede/game-of-life-kata/issues"
+  },
+  "homepage": "https://github.com/brendonthiede/game-of-life-kata#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0"
+  }
+}
