@@ -1,9 +1,9 @@
 'use strict';
 
-let game = require('./game.js');
+const game = require('./game.js');
 
 describe('Game', function () {
-    before(function () {
+    beforeEach(function () {
         game.reset();
     });
 
@@ -37,7 +37,7 @@ describe('Game', function () {
     });
 
     describe('Rules', function () {
-        before(function () {
+        beforeEach(function () {
             game.reset();
 
             game.createLife(1, 1);

@@ -1,8 +1,8 @@
 // global config file so each test does not need to be configured
 // you can probably leave this file alone
 
-var chai = require('chai');
-var sinonChai = require('sinon-chai');
+const chai = require('chai');
+const sinonChai = require('sinon-chai');
 
 global.sinon = require('sinon');
 
